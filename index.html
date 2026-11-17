@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="kk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f9c7dd" />
+    <meta name="description" content="Telegram-ға бір басумен қосыл. Осында бас — әрі қарай Telegram-да кездесеміз." />
+    <title>Telegram-ға қосыл ♡</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2219%22%20fill%3D%22%23b3437c%22%2F%3E%3Cpath%20d%3D%22m50%2016-7%2034c-.5%202.2-2%202.7-3.8%201.6L29%2044l-5%204.8c-.5.5-1%201-1.9%201l.7-10.5L42%2022.1c.8-.8-.2-1.1-1.3-.5L17%2036.5%207%2033.4c-2.3-.7-2.3-2.2.4-3.2L47%2014.8c1.8-.7%203.5.5%203%201.2Z%22%20fill%3D%22%23fff6fa%22%20transform%3D%22translate%283%200%29%20scale%28.94%29%22%2F%3E%3C%2Fsvg%3E%0A" type="image/svg+xml" />
+    <style>
+:root {
+  color-scheme: light;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  color: #492338;
+  background: #f9d5e3;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 300px; min-height: 100svh; position: relative; isolation: isolate; display: flex; flex-direction: column; }
+a { -webkit-tap-highlight-color: transparent; }
+.svg-definitions { position: absolute; width: 0; height: 0; overflow: hidden; }
+.ambient { position: fixed; inset: 0; overflow: hidden; z-index: -1; pointer-events: none; background: radial-gradient(ellipse at 10% 10%, #fff2f4 0, transparent 44%), radial-gradient(ellipse at 95% 95%, #f7b4d1 0, transparent 52%), linear-gradient(115deg, #f9dde9 2%, #f8c1dc 50%, #f8d7e5 100%); }
+.ambient::after { content: ""; position: absolute; inset: 0; opacity: .16; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.88' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%239c5c7c' opacity='.24' filter='url(%23n)' d='M0 0h180v180H0z'/%3E%3C/svg%3E"); }
+.wash { position: absolute; width: 600px; height: 600px; border-radius: 50%; filter: blur(75px); opacity: .56; animation: drift 20s ease-in-out infinite alternate; }
+.wash-one { background: #ed83ba; left: -250px; top: 20%; }
+.wash-two { background: #ffe9ed; right: -200px; top: -200px; animation-delay: -10s; }
+.orbit { position: absolute; width: 1220px; height: 620px; left: calc(50% - 610px); top: calc(50% - 310px); border: 1px solid #fff7; border-radius: 50%; transform: rotate(-31deg); box-shadow: 0 1px 0 #ed9fc332; }
+.orbit-two { width: 1550px; height: 760px; left: calc(50% - 775px); top: calc(50% - 380px); border-color: #fff4; transform: rotate(-31deg); }
+.bubble { position: absolute; border-radius: 50%; border: 1px solid #fff8; background: radial-gradient(circle at 30% 26%, #fff8 0, #fff1 21%, #eb83b03b 48%, #c76c9d24 70%, #fff6 95%); box-shadow: inset 8px 8px 22px #fff6, inset -12px -12px 23px #b9468a18, 14px 21px 40px #b3447b10; animation: float 9s ease-in-out infinite; }
+.bubble-one { width: 230px; height: 230px; left: calc(50% - 575px); top: calc(50% - 255px); }
+.bubble-two { width: 290px; height: 290px; right: calc(50% - 610px); bottom: calc(50% - 325px); animation-delay: -4s; }
+.bubble-three { width: 66px; height: 66px; right: 16%; top: 16%; animation-delay: -2s; }
+.bubble-four { width: 34px; height: 34px; left: 20%; bottom: 17%; animation-delay: -6s; }
+.spark { position: absolute; color: #fff; text-shadow: 0 3px 16px #b54b8950; animation: twinkle 5s ease-in-out infinite; }
+.spark-one { font-size: 46px; left: 10%; top: 55%; }
+.spark-two { font-size: 34px; right: 10%; top: 35%; animation-delay: -2s; }
+
+.header { width: 100%; padding: 30px 4.2%; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.brand { display: inline-flex; align-items: center; gap: 9px; color: #68354e; font-size: 23px; font-weight: 750; letter-spacing: -.9px; text-decoration: none; }
+.brand-icon { display: grid; place-items: center; width: 32px; height: 32px; background: #ffffff61; border: 1px solid #fffc; border-radius: 10px; box-shadow: 0 3px 12px #a8477212; }
+.brand-icon svg { width: 18px; height: 18px; color: #a83d71; }
+.brand-dot { color: #c4528c; }
+.header-note { display: flex; align-items: center; gap: 8px; font-size: 9px; font-weight: 650; letter-spacing: 1.7px; color: #81415f; }
+.status-dot { width: 5px; height: 5px; background: #bc4a81; border-radius: 50%; box-shadow: 0 0 0 4px #ba4c7f0a; }
+
+main { flex: 1; display: grid; place-items: center; padding: 52px 32px 64px; }
+.portal { position: relative; width: 100%; max-width: 744px; }
+.glass-card { position: relative; overflow: hidden; text-align: center; padding: 35px 44px 27px; background: linear-gradient(130deg, #ffffff8c 0%, #ffffff40 52%, #ffffff65 100%); border: 1px solid #ffffffe0; border-radius: 36px; box-shadow: 0 26px 75px #a3427815, inset 0 1px 0 #fff, inset 0 -1px 0 #ffffff52; backdrop-filter: blur(28px); -webkit-backdrop-filter: blur(28px); animation: appear .9s ease-out both; }
+.card-shine { pointer-events: none; position: absolute; width: 110%; height: 300px; left: -40%; top: -200px; background: #ffffff24; border-radius: 50%; transform: rotate(-20deg); filter: blur(10px); }
+.welcome-label { display: inline-flex; align-items: center; gap: 7px; padding: 8px 13px; border: 1px solid #ffffff9c; background: #ffffff36; border-radius: 100px; color: #8d4568; font-size: 9px; font-weight: 700; letter-spacing: 2px; }
+.welcome-label > span { width: 4px; height: 4px; border-radius: 50%; background: #c6588a; }
+.hero-icon { position: relative; display: grid; place-items: center; width: 89px; height: 89px; margin: 28px auto 25px; background: linear-gradient(140deg, #f5b5d1, #e792be); border: 1px solid #fff9; border-radius: 28px; box-shadow: 0 12px 25px #ad4c8124, inset 2px 2px 7px #fff7, inset -2px -2px 7px #ca69a02b; transform: rotate(-8deg); }
+.hero-icon > svg { width: 43px; height: 43px; margin: 2px 4px 0 0; color: #fff9fd; filter: drop-shadow(0 3px 3px #b74d8322); transform: rotate(8deg); }
+.icon-ring { position: absolute; width: 124px; height: 51px; border: 1px solid #ffffffc9; border-top-color: #fff5; border-radius: 50%; transform: rotate(-27deg); }
+.icon-spark { position: absolute; right: -23px; top: -5px; color: #b85685; font-size: 20px; animation: twinkle 5s ease-in-out infinite; }
+h1 { margin: 0; font-size: clamp(36px, 4.4vw, 57px); font-weight: 750; line-height: 1.12; letter-spacing: -2.7px; color: #482337; }
+h1 > span { color: #aa3d72; }
+.intro { margin: 20px 0 29px; font-size: 14px; line-height: 1.65; color: #875b70; }
+.telegram-button { position: relative; display: flex; align-items: center; justify-content: center; gap: 13px; width: 100%; min-height: 80px; padding: 15px 75px; border: 1px solid #cc6c9b; border-radius: 18px; background: linear-gradient(110deg, #ad3f76 0%, #b84a80 60%, #b3437c 100%); color: #fff9fd; text-decoration: none; font-size: 23px; font-weight: 650; letter-spacing: -.45px; box-shadow: 0 11px 26px #a33b7026, inset 0 1px 0 #ffffff35; transition: transform .25s ease, box-shadow .25s ease, filter .25s ease; }
+.button-plane { width: 25px; height: 25px; opacity: .92; transition: transform .25s ease; }
+.button-arrow { position: absolute; right: 17px; width: 44px; height: 44px; display: grid; place-items: center; background: #ffffff14; border: 1px solid #ffffff29; border-radius: 11px; }
+.button-arrow svg { width: 22px; height: 22px; transition: transform .25s ease; }
+.telegram-button:hover { transform: translateY(-3px); box-shadow: 0 16px 32px #a33b703b, inset 0 1px 0 #ffffff45; filter: brightness(1.05); }
+.telegram-button:hover .button-arrow svg { transform: translateX(3px); }
+.telegram-button:hover .button-plane { transform: translate(2px, -2px) rotate(-5deg); }
+.telegram-button:active { transform: translateY(0) scale(.99); }
+a:focus-visible { outline: 3px solid #782a58; outline-offset: 6px; }
+.button-caption { display: flex; align-items: center; justify-content: center; gap: 5px; margin: 15px 0 0; color: #87586e; font-size: 10px; }
+.button-caption > span { font-size: 14px; }
+
+.floating-note { position: absolute; z-index: 2; display: flex; align-items: center; gap: 8px; border: 1px solid #ffffffdf; background: #fff8; backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); box-shadow: 0 8px 25px #a2427420; border-radius: 13px; font-size: 12px; font-weight: 500; color: #945273; animation: note-float 8s ease-in-out infinite; }
+.note-top { right: -32px; top: 43px; padding: 9px 15px; rotate: 9deg; }
+.note-top > span { font-size: 24px; line-height: 1; color: #b55384; }
+.note-bottom { left: -47px; bottom: 52px; padding: 9px 12px; rotate: -8deg; animation-delay: -4s; }
+.tiny-plane { display: grid; place-items: center; width: 27px; height: 27px; border-radius: 8px; background: #efaccd66; }
+.tiny-plane svg { width: 15px; height: 15px; color: #ad5680; }
+.little-star { margin-left: 6px; color: #b75e8b; font-size: 17px; }
+footer { display: flex; align-items: center; justify-content: space-between; padding: 0 4.2% 26px; gap: 20px; font-size: 10px; letter-spacing: .3px; color: #935e79; }
+.footer-love { display: flex; align-items: center; gap: 8px; }
+.footer-love > span { font-size: 19px; line-height: 1; color: #a94a79; }
+
+@keyframes float { 0%, 100% { transform: translate3d(0, 0, 0); } 50% { transform: translate3d(9px, -23px, 0); } }
+@keyframes note-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@keyframes drift { to { transform: translate3d(60px, -70px, 0) scale(1.12); } }
+@keyframes twinkle { 0%, 100% { opacity: .55; transform: scale(.9); } 50% { opacity: 1; transform: scale(1.08); } }
+@keyframes appear { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+
+@media (min-width: 1500px) { .portal { max-width: 790px; } .glass-card { padding: 42px 52px 32px; } .hero-icon { margin-block: 34px 31px; } h1 { font-size: 61px; } .intro { margin-block: 23px 33px; } }
+@media (max-width: 800px) { .header { padding: 24px 27px; } .header-note { font-size: 8px; letter-spacing: 1.1px; } main { padding: 50px 43px 65px; } .glass-card { padding: 31px 30px 25px; border-radius: 30px; } h1 { font-size: clamp(36px, 6.4vw, 49px); letter-spacing: -1.9px; } .intro { font-size: 13px; } .note-top { right: -23px; top: 33px; } .note-bottom { left: -23px; bottom: 43px; font-size: 11px; } .bubble-one { left: -95px; top: 20%; } .bubble-two { right: -100px; bottom: 8%; width: 230px; height: 230px; } footer { padding-inline: 27px; } }
+@media (max-width: 520px) { .header { padding: 24px 22px; } .brand { font-size: 22px; } .header-note { display: none; } main { padding: 48px 20px 60px; } .portal { max-width: 410px; } .glass-card { padding: 29px 23px 23px; border-radius: 28px; } .welcome-label { font-size: 8px; } .hero-icon { width: 76px; height: 76px; border-radius: 24px; margin: 29px auto 26px; } .hero-icon > svg { width: 37px; height: 37px; } .icon-ring { width: 108px; height: 45px; } h1 { font-size: clamp(30px, 8.1vw, 41px); line-height: 1.15; letter-spacing: -1.6px; } .intro { max-width: 250px; margin: 19px auto 25px; font-size: 12px; } .telegram-button { min-height: 74px; padding: 17px 56px 17px 28px; gap: 10px; font-size: 21px; border-radius: 16px; } .button-plane { width: 22px; height: 22px; } .button-arrow { right: 11px; width: 35px; height: 39px; border-radius: 9px; } .button-arrow svg { width: 19px; height: 19px; } .button-caption { margin-top: 13px; font-size: 9px; } .note-top { right: 7px; top: -21px; padding: 8px 12px; font-size: 10px; rotate: 7deg; } .note-top > span { font-size: 21px; } .note-bottom { left: 13px; bottom: -22px; font-size: 10px; padding: 7px 11px; rotate: -6deg; } .tiny-plane { width: 23px; height: 23px; } .tiny-plane svg { width: 13px; height: 13px; } .little-star { font-size: 14px; } .bubble-one { width: 158px; height: 158px; left: -69px; top: 17%; } .bubble-two { width: 175px; height: 175px; right: -62px; bottom: 6%; } .bubble-three { width: 41px; height: 41px; top: 10%; right: 13%; } .bubble-four { bottom: 13%; left: 10%; width: 25px; height: 25px; } .spark-one { top: 41%; left: 2%; font-size: 29px; } .spark-two { right: 2%; top: 68%; font-size: 23px; } footer { padding: 0 23px 23px; font-size: 8px; } .footer-love { gap: 5px; } .footer-love > span { font-size: 16px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+
+    </style>
+  </head>
+  <body>
+    <svg class="svg-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <symbol id="plane" viewBox="0 0 32 32">
+        <path d="M27.1 5.2 22.9 26c-.3 1.5-1.2 1.8-2.4 1.1l-6.4-4.7-3.1 3c-.3.3-.6.6-1.2.6l.4-6.5L22.1 8.7c.5-.5-.1-.7-.8-.3L6.6 17.7.3 15.8c-1.4-.4-1.4-1.4.3-2L25.2 4.3c1.1-.4 2.2.3 1.9.9Z" transform="translate(2 0)" fill="currentColor" />
+      </symbol>
+    </svg>
+
+    <div class="ambient" aria-hidden="true">
+      <div class="wash wash-one"></div>
+      <div class="wash wash-two"></div>
+      <div class="orbit orbit-one"></div>
+      <div class="orbit orbit-two"></div>
+      <div class="bubble bubble-one"></div>
+      <div class="bubble bubble-two"></div>
+      <div class="bubble bubble-three"></div>
+      <div class="bubble bubble-four"></div>
+      <div class="spark spark-one">✧</div>
+      <div class="spark spark-two">✧</div>
+    </div>
+
+    <header class="header">
+      <a class="brand" href="#" aria-label="Басты бет">
+        <span class="brand-icon"><svg aria-hidden="true"><use href="#plane" /></svg></span>
+        <span>telegram<span class="brand-dot">.</span></span>
+      </a>
+      <span class="header-note"><span class="status-dot"></span> БӘРІ ОСЫ ЖЕРДЕН БАСТАЛАДЫ</span>
+    </header>
+
+    <main>
+      <div class="portal">
+        <div class="floating-note note-top" aria-hidden="true"><span>♡</span> Кездескенше!</div>
+        <section class="glass-card" aria-labelledby="welcome-title">
+          <div class="card-shine" aria-hidden="true"></div>
+          <div class="welcome-label"><span></span> ҚОШ КЕЛДІҢ!</div>
+          <div class="hero-icon" aria-hidden="true">
+            <div class="icon-ring"></div>
+            <svg><use href="#plane" /></svg>
+            <span class="icon-spark">✦</span>
+          </div>
+          <h1 id="welcome-title">Телеграмға өту үшін<br /><span>осыны басыңдар</span></h1>
+          <p class="intro">Бір ғана қадам — әрі қарай Telegram-да кездесеміз.</p>
+          <a class="telegram-button" href="https://t.me/+17hwHncO0B0wYjUy" target="_blank" rel="noopener noreferrer" aria-label="Осында бас — Telegram-ға өту (жаңа бетте ашылады)">
+            <svg class="button-plane" aria-hidden="true"><use href="#plane" /></svg>
+            <span>Осында бас</span>
+            <span class="button-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+          </a>
+          <p class="button-caption"><span aria-hidden="true">↗</span> Telegram-ға тікелей өту</p>
+        </section>
+        <div class="floating-note note-bottom" aria-hidden="true"><span class="tiny-plane"><svg><use href="#plane" /></svg></span> Бір басу жеткілікті <span class="little-star">✦</span></div>
+      </div>
+    </main>
+
+    <footer>
+      <span>Сен. Біз. Telegram.</span>
+      <span class="footer-love">Байланыста болайық <span aria-hidden="true">♡</span></span>
+    </footer>
+  </body>
+</html>
